@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Put Your Session Id 👩‍💻' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === MALAKA-MD~nUAnQLoL#04fKgZgBGInUOZNKAGofnUABnHjph0avAOeVoTRgI-c ? 'Put Your Session Id 👩‍💻' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS === undefined ?"true" : process.env.AUTO_REACT_STATUS,
@@ -23,6 +23,6 @@ ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.e
 READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "false" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
+AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
 };
